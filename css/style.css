@@ -30,6 +30,7 @@ nav h2:hover{
     transform: scale(1.2);
 }
 
+
 span{
     color: #f9004d;
 }
@@ -75,7 +76,7 @@ nav ul li a:hover{
 
 h4{
     color: #fcfcfc;
-    letter-spacing: 2px;
+    letter-spacing: 2px; /* espaçamento entre letras */
     font-size: 20px;
 }
 
@@ -95,7 +96,7 @@ h3{
     position: relative;
 }
 
-.formulario form input:first-child{
+.formulario form input:first-child{ /*pega o primeiro input*/
     display: inline-block;
     width: 100%;
     padding: 14px 130px 14px 15px;
@@ -103,7 +104,7 @@ h3{
     outline: none;
 }
 
-.formulario form input:last-child{
+.formulario form input:last-child{ /* pega o segundo input*/
     position: absolute;
     display: inline-block;
     outline: none;
@@ -114,4 +115,66 @@ h3{
     box-shadow: 0px 0px 15px ;
     top: 4.5px;
     left: 400px;
+}
+
+.fundo-secao{
+    background-color: #191919;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.fundo-secao img{
+    width: 500px;
+    height: auto;
+    border: 2px dotted #f9004d;
+}
+
+.text-sobre{
+    width: 550px;
+    padding-left: 8%;
+}
+
+.principal-sobre{
+    display: flex;
+    align-items: center;
+    width: 1130;
+    margin: 0px;
+    padding-left: 8%;
+}
+
+.text-sobre h2{
+    color: #fff;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.text-sobre h5{
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.text-sobre p{
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button{
+    background-color: #f9004d;
+    color: #fff;
+    padding: 10px 50px;
+    border-radius: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+button:hover{
+    border: 2px solid #f9004d;
+    background-color: transparent;
 }
