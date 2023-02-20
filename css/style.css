@@ -5,7 +5,7 @@
 }
 
 .fundo{
-    background-image: url(../img/fundo.png);
+    background-image: url(../img/fundo_preto.png);
     background-position:center;
     background-size: cover;
     height: 100vh;
@@ -177,4 +177,129 @@ button{
 button:hover{
     border: 2px solid #f9004d;
     background-color: transparent;
+}
+
+.pagina-serviços{
+    background-color: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title{
+    color: #fff;
+    font-size: 75px;
+    text-align: center;
+    margin: 30px auto;
+    width: 1130px;
+}
+
+.caixa-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap:wrap ;
+}
+
+.card{
+    background-color: #191919;
+    height: 365px;
+    width: 335px;
+    border: 20px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    text-align: center;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+}
+
+.card h5{
+    color:#fff ;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.card p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.contate{
+    background-color: #191919;
+    width: 100%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contate p{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #101010;
+}
+footer h6{
+    font-size: 35px;
+    color: #fff;
+}
+footer p{
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+
+.redes-sociais{
+    display: flex;
+}
+
+.redes-sociais a{
+    background-color: #f9004d;
+    width: 45px;
+    height: 45px;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.redes-sociais:hover{
+    transform: scale(1.2);
+}
+
+.fim p{
+    color: #f9004d;
+    position: relative;
+    font-size: 14px;
+    top: 35px;
 }
